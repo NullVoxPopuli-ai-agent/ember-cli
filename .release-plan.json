@@ -1,52 +1,24 @@
 {
   "solution": {
     "ember-cli": {
-      "impact": "minor",
-      "oldVersion": "6.10.2",
-      "newVersion": "6.11.0",
+      "impact": "patch",
+      "oldVersion": "6.11.0",
+      "newVersion": "6.11.1",
       "tagName": "latest",
       "constraints": [
         {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        },
-        {
           "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/classic-build-app-blueprint"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/classic-build-addon-blueprint"
+          "reason": "Appears in changelog section :bug: Bug Fix"
         }
       ],
       "pkgJSONPath": "./package.json"
     },
     "@ember-tooling/classic-build-addon-blueprint": {
-      "impact": "minor",
-      "oldVersion": "6.10.0",
-      "newVersion": "6.11.0",
-      "tagName": "latest",
-      "constraints": [
-        {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        }
-      ],
-      "pkgJSONPath": "./packages/addon-blueprint/package.json"
+      "oldVersion": "6.11.0"
     },
     "@ember-tooling/classic-build-app-blueprint": {
-      "impact": "minor",
-      "oldVersion": "6.10.0",
-      "newVersion": "6.11.0",
-      "tagName": "latest",
-      "constraints": [
-        {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        }
-      ],
-      "pkgJSONPath": "./packages/app-blueprint/package.json"
+      "oldVersion": "6.11.0"
     }
   },
-  "description": "## Release (2026-02-17)\n\n* ember-cli 6.11.0 (minor)\n* @ember-tooling/classic-build-addon-blueprint 6.11.0 (minor)\n* @ember-tooling/classic-build-app-blueprint 6.11.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-cli`, `@ember-tooling/classic-build-app-blueprint`\n  * [#10960](https://github.com/ember-cli/ember-cli/pull/10960) Promote Beta and update all dependencies for 6.11 release ([@mansona](https://github.com/mansona))\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`\n  * [#10929](https://github.com/ember-cli/ember-cli/pull/10929) Prepare 6.11-beta ([@mansona](https://github.com/mansona))\n  * [#10919](https://github.com/ember-cli/ember-cli/pull/10919) Prepare 6.11-alpha ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+  "description": "## Release (2026-03-28)\n\n* ember-cli 6.11.1 (patch)\n\n#### :bug: Bug Fix\n* `ember-cli`\n  * [#10972](https://github.com/ember-cli/ember-cli/pull/10972) Support ember-source (ESM) -- without addon vendor paths ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }

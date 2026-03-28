@@ -1,5 +1,16 @@
 # ember-cli Changelog
 
+## Release (2026-03-28)
+
+* ember-cli 6.11.1 (patch)
+
+#### :bug: Bug Fix
+* `ember-cli`
+  * [#10972](https://github.com/ember-cli/ember-cli/pull/10972) Support ember-source (ESM) -- without addon vendor paths ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2026-02-17)
 
 * ember-cli 6.11.0 (minor)
